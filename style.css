@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+
+.container {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContainer {
+    display: flex;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.4), 0 20px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+}
+
+.leftCard {
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right,hsla(252, 100%, 67%,0.95), hsla(241, 81%, 54%,1));
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.yourResult {
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    font-size: 20px;
+    color:  hsl(241, 100%, 89%)
+}
+
+.score {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    padding: 20px;
+}
+
+.scoreText {
+    color: white;
+    font-size: 350%;
+    font-weight: 900;
+    font-family: Hanken Grotesk;
+    margin-bottom: 0;
+}
+
+.outOfText {
+    color: hsl(241, 100%, 89%);
+    font-family: Hanken Grotesk;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.greatText {
+    color: white;
+    font-family: Hanken Grotesk;
+    font-size: xx-large;
+    font-weight: 800;
+
+}
+
+.description {
+    color: hsl(241, 100%, 89%);
+    font-family: Hanken Grotesk;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 2.5em ;
+    margin-right: 2.5em;
+}
+
+.rightCard {
+    width: 350px;
+    height: 500px;
+
+}
+
+.list>p {
+    display: inline-block;
+}
+
+
+
