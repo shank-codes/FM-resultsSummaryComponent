@@ -12,11 +12,6 @@
       href="./assets/images/favicon-32x32.png"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hanken Grotesk"
-      rel="styleSheet"
-    />
-
     <link rel="stylesheet" href="./style.css" />
 
     <title>Frontend Mentor | Results summary component</title>
@@ -44,30 +39,42 @@
         </div>
         <div class="rightCard">
           <div>
-            <h3>Summary</h3>
+            <h3 class="summaryText">Summary</h3>
           </div>
-          <div class="list">
-            <p>Reaction</p>
-            <p>80</p>
-            <p>/ 100</p>
+          <div class="list reaction">
+            <i class="icon-reaction"></i>
+            <p class="reactionText">Reaction</p>
+            <span class="scorings">
+              <p class="marks">80</p>
+              <p class="hundredText">/ 100</p>
+            </span>
           </div>
-          <div class="list">
-            <p>Memory</p>
-            <p>92</p>
-            <p>/ 100</p>
+          <div class="list memory">
+            <i class="icon-memory"></i>
+            <p class="memoryText">Memory</p>
+            <span class="scorings">
+              <p class="marks">92</p>
+              <p class="hundredText">/ 100</p>
+            </span>
           </div>
-          <div class="list">
-            <p>Verbal</p>
-            <p>61</p>
-            <p>/ 100</p>
+          <div class="list verbal">
+            <i class="icon-verbal"></i>
+            <p class="verbalText">Verbal</p>
+            <span class="scorings">
+              <p class="marks">61</p>
+              <p class="hundredText">/ 100</p>
+            </span>
           </div>
-          <div class="list">
-            <p>Visual</p>
-            <p>72</p>
-            <p>/ 100</p>
+          <div class="list visual">
+            <i class="icon-visual"></i>
+            <p class="visualText">Visual</p>
+            <span class="scorings">
+              <p class="marks">72</p>
+              <p class="hundredText">/ 100</p>
+            </span>
           </div>
           <div>
-            <button>Continue</button>
+            <button class="continueBtn">Continue</button>
           </div>
         </div>
       </div>
